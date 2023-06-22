@@ -1,0 +1,26 @@
+.list{
+    background-color: #343740;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+    height: 10vh;
+    gap: 70px;
+    
+}
+
+ul>li.item{
+    padding: 20px;
+    color: aliceblue; 
+    text-decoration: none;
+}
+
+.footer{
+    color: black;
+    background-color: #498C3F;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
