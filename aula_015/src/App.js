@@ -6,7 +6,7 @@ import NavBar from './components/layout/NavBar';
 import Footer from './components/layout/Footer';
 
 
-function App() {
+export default function App() {
 
   return (//A tag router vai envolver toda a página
   //A tag link é como se fosse uma tag <a> do html, mas é o componente correto para fazer o roteamento por debaixo dos panos e dar cara de SPA para o projeto
@@ -23,5 +23,3 @@ function App() {
   </Router>
 );
 }
-
-export default App;

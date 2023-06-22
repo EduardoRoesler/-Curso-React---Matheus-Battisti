@@ -1,6 +1,19 @@
 /*Aqui no index é interessante utilizar para estilos globais*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 body{
-  background-color: black;
-  color: aliceblue;
+  display: flex;
+  font-size: x-large;
+  justify-content: center;
+  height: 100%;
+  width: 100vw;
+}
+
+#root{
+  width: 100%;
 }

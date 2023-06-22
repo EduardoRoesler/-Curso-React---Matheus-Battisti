@@ -1,6 +1,10 @@
+import style from './Pages.module.css'
+
 export default function Contato(){
+    return (
     <div>
-        <h1>Contato</h1>
-        <p>Conteúdo da página</p>
+        <h1 className={style.title}>Contato</h1>
+        <p className={style.p}>Conteúdo da página 'Contato'</p>
     </div>
+    )
 }
